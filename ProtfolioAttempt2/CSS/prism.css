@@ -148,6 +148,7 @@ pre[data-line] {
 }
 
 /* Markup */
+
 .language-markup .token.tag,
 .language-markup .token.attr-name,
 .language-markup .token.punctuation {
