@@ -1,0 +1,295 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{453BACB7-7629-4005-A6B0-E39217C47673}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProtfolioAttempt2</RootNamespace>
+    <AssemblyName>ProtfolioAttempt2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44306</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ajax\port1-more.html" />
+    <Content Include="ajax\port2-more.html" />
+    <Content Include="ajax\post1-1.html" />
+    <Content Include="ajax\post1.html" />
+    <Content Include="ajax\post2.html" />
+    <Content Include="ajax\post3.html" />
+    <Content Include="ajax\post4.html" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\color\aqua.css" />
+    <Content Include="CSS\color\blue.css" />
+    <Content Include="CSS\color\gray.css" />
+    <Content Include="CSS\color\green.css" />
+    <Content Include="CSS\color\orange.css" />
+    <Content Include="CSS\color\pink.css" />
+    <Content Include="CSS\color\red.css" />
+    <Content Include="CSS\color\yellow.css" />
+    <Content Include="CSS\plugins.css" />
+    <Content Include="CSS\prettify.css" />
+    <Content Include="CSS\prism.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="CSS\StyleSheet1.css" />
+    <Content Include="data\data.html" />
+    <Content Include="data\HtmlPage1.html" />
+    <Content Include="HTML\blog-post.html" />
+    <Content Include="HTML\blog.html" />
+    <Content Include="HTML\icon-budicon.html" />
+    <Content Include="HTML\icon-fontello.html" />
+    <Content Include="HTML\index.html" />
+    <Content Include="img\art\a1.jpg" />
+    <Content Include="img\art\a2.jpg" />
+    <Content Include="img\art\a3.jpg" />
+    <Content Include="img\art\about.jpg" />
+    <Content Include="img\art\author.jpg" />
+    <Content Include="img\art\b1-1.jpg" />
+    <Content Include="img\art\b1-2.jpg" />
+    <Content Include="img\art\b1-3.jpg" />
+    <Content Include="img\art\b1-4.jpg" />
+    <Content Include="img\art\b1-5.jpg" />
+    <Content Include="img\art\b1-6.jpg" />
+    <Content Include="img\art\b2-1.jpg" />
+    <Content Include="img\art\b2-2.jpg" />
+    <Content Include="img\art\b2-3.jpg" />
+    <Content Include="img\art\b2-4.jpg" />
+    <Content Include="img\art\b2-5.jpg" />
+    <Content Include="img\art\b2-6.jpg" />
+    <Content Include="img\art\b3-1.jpg" />
+    <Content Include="img\art\b3-2.jpg" />
+    <Content Include="img\art\b3-3.jpg" />
+    <Content Include="img\art\bg1.jpg" />
+    <Content Include="img\art\bg2.jpg" />
+    <Content Include="img\art\bg3.jpg" />
+    <Content Include="img\art\bg4.jpg" />
+    <Content Include="img\art\blog-post2.jpg" />
+    <Content Include="img\art\pa1-full.jpg" />
+    <Content Include="img\art\pa1.jpg" />
+    <Content Include="img\art\pa2-full.jpg" />
+    <Content Include="img\art\pa2.jpg" />
+    <Content Include="img\art\pa3-full.jpg" />
+    <Content Include="img\art\pa3.jpg" />
+    <Content Include="img\art\pa4-full.jpg" />
+    <Content Include="img\art\pa4.jpg" />
+    <Content Include="img\art\pa5-full.jpg" />
+    <Content Include="img\art\pa5.jpg" />
+    <Content Include="img\art\pa6-full.jpg" />
+    <Content Include="img\art\pa6.jpg" />
+    <Content Include="img\art\pm1-full.jpg" />
+    <Content Include="img\art\pm1.jpg" />
+    <Content Include="img\art\pm2-full.jpg" />
+    <Content Include="img\art\pm2.jpg" />
+    <Content Include="img\art\pm3-full.jpg" />
+    <Content Include="img\art\pm3.jpg" />
+    <Content Include="img\art\pm4-full.jpg" />
+    <Content Include="img\art\pm4.jpg" />
+    <Content Include="img\art\pm5-full.jpg" />
+    <Content Include="img\art\pm5.jpg" />
+    <Content Include="img\art\pp1-1.jpg" />
+    <Content Include="img\art\pp1-2.jpg" />
+    <Content Include="img\art\pp1-3.jpg" />
+    <Content Include="img\art\pp1-4.jpg" />
+    <Content Include="img\art\pp1-full.jpg" />
+    <Content Include="img\art\pp1-th1.jpg" />
+    <Content Include="img\art\pp1-th2.jpg" />
+    <Content Include="img\art\pp1-th3.jpg" />
+    <Content Include="img\art\pp1-th4.jpg" />
+    <Content Include="img\art\pp1.jpg" />
+    <Content Include="img\art\pp2-1.jpg" />
+    <Content Include="img\art\pp2-2.jpg" />
+    <Content Include="img\art\pp2-3.jpg" />
+    <Content Include="img\art\pp2-4.jpg" />
+    <Content Include="img\art\pp2-5.jpg" />
+    <Content Include="img\art\pp2-6.jpg" />
+    <Content Include="img\art\pp2-7.jpg" />
+    <Content Include="img\art\pp2-8.jpg" />
+    <Content Include="img\art\pp2-full.jpg" />
+    <Content Include="img\art\pp2.jpg" />
+    <Content Include="img\art\pp3-1.jpg" />
+    <Content Include="img\art\pp3-2.jpg" />
+    <Content Include="img\art\pp3-3.jpg" />
+    <Content Include="img\art\pp3-4.jpg" />
+    <Content Include="img\art\pp3-5.jpg" />
+    <Content Include="img\art\pp3-6.jpg" />
+    <Content Include="img\art\pp3-7.jpg" />
+    <Content Include="img\art\pp3-8.jpg" />
+    <Content Include="img\art\pp3-full.jpg" />
+    <Content Include="img\art\pp3.jpg" />
+    <Content Include="img\art\pp4-full.jpg" />
+    <Content Include="img\art\pp4.jpg" />
+    <Content Include="img\art\pp5-full.jpg" />
+    <Content Include="img\art\pp5.jpg" />
+    <Content Include="img\art\pp6-full.jpg" />
+    <Content Include="img\art\pp6.jpg" />
+    <Content Include="img\art\ps1-full.jpg" />
+    <Content Include="img\art\ps1.jpg" />
+    <Content Include="img\art\ps2-full.jpg" />
+    <Content Include="img\art\ps2.jpg" />
+    <Content Include="img\art\ps3-full.jpg" />
+    <Content Include="img\art\ps3.jpg" />
+    <Content Include="img\art\ps4-full.jpg" />
+    <Content Include="img\art\ps4.jpg" />
+    <Content Include="img\art\ps5-full.jpg" />
+    <Content Include="img\art\ps5.jpg" />
+    <Content Include="img\art\ps6-full.jpg" />
+    <Content Include="img\art\ps6.jpg" />
+    <Content Include="img\art\buftracker.jpg" />
+    <Content Include="img\art\u1.jpg" />
+    <Content Include="img\art\u2.jpg" />
+    <Content Include="img\art\u3.jpg" />
+    <Content Include="img\art\u4.jpg" />
+    <Content Include="img\blank.gif" />
+    <Content Include="img\cbp-loading.gif" />
+    <Content Include="img\closedhand.cur" />
+    <Content Include="img\code.jpg" />
+    <Content Include="img\coding.jpg" />
+    <Content Include="img\dummy.png" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\logo%402x.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\map-pin.png" />
+    <Content Include="img\openhand.cur" />
+    <Content Include="img\svg\csharp.svg" />
+    <Content Include="img\svg\HTML5.svg" />
+    <Content Include="img\svg\Java-Logo.svg" />
+    <Content Include="img\svg\js.svg" />
+    <Content Include="img\svg\Python.svg" />
+    <Content Include="img\timer.png" />
+    <Content Include="script\bootstrap.min.js" />
+    <Content Include="script\classie.js" />
+    <Content Include="script\jquery.min.js" />
+    <Content Include="script\jquery.themepunch.tools.min.js" />
+    <Content Include="script\plugins.js" />
+    <Content Include="script\prism.js" />
+    <Content Include="script\scripts.js" />
+    <Content Include="Type\budicons.css" />
+    <Content Include="Type\budicons\budicon.svg" />
+    <Content Include="Type\fontello.css" />
+    <Content Include="Type\fontello\fontello-circle.svg" />
+    <Content Include="Type\fontello\fontello-social.svg" />
+    <Content Include="Type\fontello\fontello.svg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\.DS_Store" />
+    <Content Include="img\art\.DS_Store" />
+    <None Include="packages.config" />
+    <Content Include="Type\budicons\budicon.eot" />
+    <Content Include="Type\budicons\budicon.ttf" />
+    <Content Include="Type\budicons\budicon.woff" />
+    <Content Include="Type\fontello\fontello-circle.eot" />
+    <Content Include="Type\fontello\fontello-circle.ttf" />
+    <Content Include="Type\fontello\fontello-circle.woff" />
+    <Content Include="Type\fontello\fontello-social.eot" />
+    <Content Include="Type\fontello\fontello-social.ttf" />
+    <Content Include="Type\fontello\fontello-social.woff" />
+    <Content Include="Type\fontello\fontello.eot" />
+    <Content Include="Type\fontello\fontello.ttf" />
+    <Content Include="Type\fontello\fontello.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55030</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44306/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
