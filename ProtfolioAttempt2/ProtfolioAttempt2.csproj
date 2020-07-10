@@ -90,11 +90,11 @@
     <Content Include="CSS\StyleSheet1.css" />
     <Content Include="data\data.html" />
     <Content Include="data\HtmlPage1.html" />
-    <Content Include="HTML\blog-post.html" />
-    <Content Include="HTML\blog.html" />
-    <Content Include="HTML\icon-budicon.html" />
-    <Content Include="HTML\icon-fontello.html" />
-    <Content Include="HTML\index.html" />
+    <Content Include="blog-post.html" />
+    <Content Include="blog.html" />
+    <Content Include="icon-budicon.html" />
+    <Content Include="icon-fontello.html" />
+    <Content Include="index.html" />
     <Content Include="img\art\a1.jpg" />
     <Content Include="img\art\a2.jpg" />
     <Content Include="img\art\a3.jpg" />
@@ -253,7 +253,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="HTML\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
