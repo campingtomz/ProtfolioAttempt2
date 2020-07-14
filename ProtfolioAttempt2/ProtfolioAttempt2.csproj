@@ -94,7 +94,11 @@
     <Content Include="blog.html" />
     <Content Include="icon-budicon.html" />
     <Content Include="icon-fontello.html" />
+    <Content Include="img\code2.jpg" />
+    <Content Include="img\factorial.PNG" />
     <Content Include="img\fizzbuzz.PNG" />
+    <Content Include="img\movieselector.PNG" />
+    <Content Include="img\tacocat.PNG" />
     <Content Include="index.html" />
     <Content Include="img\art\a1.jpg" />
     <Content Include="img\art\a2.jpg" />
