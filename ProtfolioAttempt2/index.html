@@ -57,8 +57,8 @@
                 <ul class="social">
                     <li><a href="https://www.linkedin.com/in/thomaszanis/" target="blank"><i class="icon-s-linkedin"></i></a></li>
                     <li><a href="https://github.com/campingtomz" target="blank"><i class="icon-s-github"></i></a></li>
-                    
-                    
+
+
                 </ul>
             </div>
             <!-- /#elsewhere -->
@@ -108,13 +108,13 @@
                                 The toaster or radio, the trouble was putting them back together.
                                 When I was in middle school my interest turned to computers, how they work,
                                 what each component does and how it is all integrated together.
-                                I built my first computer when during middle school. It didn't work at first. 
+                                I built my first computer when during middle school. It didn't work at first.
                                 A few days of trying to get it to work, I found the error code meant the CPU was bad.
-                                After getting a replacement it was alive and I was hooked. 
+                                After getting a replacement it was alive and I was hooked.
                             </p>
                             <p>
-                                I recently graduated from Pennsylvania State University with a degree in computer engineering. 
-                                 My knowledge has expanded, but I continue to want to learn more. I am currently learning and relearning several computer
+                                I recently graduated from Pennsylvania State University with a degree in computer engineering.
+                                My knowledge has expanded, but I continue to want to learn more. I am currently learning and relearning several computer
                                 languages and working on several project to increase my skills and experience so my understanding
                                 of them can continue to grow.
                             </p>
@@ -179,7 +179,6 @@
                                 <!-- /.text -->
                             </div>
                             <!-- /column -->
-                            
                             <!-- /column -->
                         </div>
                         <!-- /.row -->
@@ -237,7 +236,7 @@
                             <li class="cbp-item frame architecture">
                                 <a class="cbp-caption cbp-singlePage" href="ajax/post1-2.html">
                                     <div class="cbp-caption-defaultWrap">
-                                     
+
                                         <img src="../img/fizzbuzz/fizzbuzz.png" />
                                     </div>
                                     <div class="cbp-caption-activeWrap">
@@ -305,18 +304,17 @@
                     <!-- /.services-2 -->
                     <div class="divide30"></div>
                     <div class="form-container">
-                        <div class="response alert alert-success"></div>
-                        <form class="forms" action="contact/form-handler.php" method="post">
+                        <form class="forms" id="myform" action="contact/form-handler.php" method="post">
                             <fieldset>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-row text-input-row name-field">
                                             <label>Name</label>
-                                            <input type="text" name="name" class="text-input defaultText required" />
+                                            <input type="text" name="client_namee" class="text-input defaultText required" />
                                         </div>
                                         <div class="form-row text-input-row email-field">
                                             <label>Email</label>
-                                            <input type="text" name="email" class="text-input defaultText required email" />
+                                            <input type="text" name="client_email" class="text-input defaultText required email" />
                                         </div>
                                         <div class="form-row text-input-row subject-field">
                                             <label>Subject</label>
@@ -326,7 +324,7 @@
                                     <div class="col-sm-6 lp5">
                                         <div class="form-row text-area-row">
                                             <label>Message</label>
-                                            <textarea name="message" class="text-area required"></textarea>
+                                            <textarea name="body" class="text-area required"></textarea>
                                         </div>
                                         <div class="form-row hidden-row">
                                             <input type="hidden" name="hidden" value="" />
@@ -338,7 +336,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="button-row pull-right">
-                                            <input type="submit" value="Send Message" name="submit" class="btn btn-submit bm0" />
+                                            <input type="submit" value="Send Message" name="submit-email" class="btn btn-submit bm0" />
                                         </div>
                                     </div>
                                     <div class="col-sm-6 lp5">
@@ -362,7 +360,7 @@
             <footer class="footer box">
                 <p class="pull-left">© 2015 Lumos. All rights reserved. Theme by <a href="http://elemisfreebies.com">elemis</a>.</p>
                 <ul class="social pull-right">
-                   
+
                     <li><a href="https://www.linkedin.com/in/thomaszanis/" target="blank"><i class="icon-s-linkedin"></i></a></li>
                     <li><a href="https://github.com/campingtomz" target="blank"><i class="icon-s-github"></i></a></li>
                 </ul>
@@ -374,6 +372,7 @@
         <!-- /.container -->
     </div>
     <!-- /.body-wrapper -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script src="script/jquery.min.js"></script>
     <script src="script/bootstrap.min.js"></script>
     <script src="script/jquery.themepunch.tools.min.js"></script>
@@ -381,7 +380,12 @@
     <script src="script/plugins.js"></script>
     <script src="script/scripts.js"></script>
     <script src="script/prism.js"></script>
-
+    <script src="script/contact.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_I4aa8Kg8MPmdBioJYWIoo");
+        })();
+    </script>
     <script>
         $.backstretch(["img/black.jpg"]);
     </script>

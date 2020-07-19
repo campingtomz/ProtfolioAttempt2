@@ -240,6 +240,7 @@
     <Content Include="img\timer.png" />
     <Content Include="script\bootstrap.min.js" />
     <Content Include="script\classie.js" />
+    <Content Include="script\contact.js" />
     <Content Include="script\jquery.min.js" />
     <Content Include="script\jquery.themepunch.tools.min.js" />
     <Content Include="script\plugins.js" />
