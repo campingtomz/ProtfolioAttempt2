@@ -96,6 +96,7 @@
     <Content Include="blog.html" />
     <Content Include="icon-budicon.html" />
     <Content Include="icon-fontello.html" />
+    <Content Include="img\333333.png" />
     <Content Include="img\black.jpg" />
     <Content Include="img\code2.jpg" />
     <Content Include="img\factorial.PNG" />
