@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="ajax\port1-more.html" />
     <Content Include="ajax\port2-more.html" />
+    <Content Include="ajax\post1-6.html" />
     <Content Include="ajax\post1-5.html" />
     <Content Include="ajax\post1-3.html" />
     <Content Include="ajax\post1-2.html" />
@@ -100,6 +101,7 @@
     <Content Include="img\Blog\Blog2.PNG" />
     <Content Include="img\Blog\blogpostart.png" />
     <Content Include="img\Blog\CaptureblogHome.PNG" />
+    <Content Include="img\Bugtracker\bugtracker.jpg" />
     <Content Include="img\code2.jpg" />
     <Content Include="img\factorial.PNG" />
     <Content Include="img\factorial\factorialcode.PNG" />
