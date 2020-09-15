@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="ajax\port1-more.html" />
     <Content Include="ajax\port2-more.html" />
+    <Content Include="ajax\post1-7.html" />
     <Content Include="ajax\post1-6.html" />
     <Content Include="ajax\post1-5.html" />
     <Content Include="ajax\post1-3.html" />
@@ -101,12 +102,20 @@
     <Content Include="img\Blog\Blog2.PNG" />
     <Content Include="img\Blog\blogpostart.png" />
     <Content Include="img\Blog\CaptureblogHome.PNG" />
+    <Content Include="img\Bugtracker\Blog2.PNG" />
+    <Content Include="img\Bugtracker\bugtackerticket.PNG" />
+    <Content Include="img\Bugtracker\bugtracker Login.PNG" />
     <Content Include="img\Bugtracker\bugtracker.jpg" />
+    <Content Include="img\Bugtracker\bugtrackerHome.PNG" />
+    <Content Include="img\Bugtracker\projectview.PNG" />
     <Content Include="img\code2.jpg" />
     <Content Include="img\factorial.PNG" />
     <Content Include="img\factorial\factorialcode.PNG" />
     <Content Include="img\factorial\factorialhome.PNG" />
     <Content Include="img\factorial\factorialsolve.PNG" />
+    <Content Include="img\financial\add transaction.PNG" />
+    <Content Include="img\financial\Financial.jpg" />
+    <Content Include="img\financial\finhomepage.PNG" />
     <Content Include="img\fizzbuzz.PNG" />
     <Content Include="img\fizzbuzz\fizzbuzz.PNG" />
     <Content Include="img\fizzbuzz\fizzbuzzcode.PNG" />
